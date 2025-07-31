@@ -26,35 +26,28 @@ The codebase follows the **MVC (Model-View-Controller)** architecture for clean 
 
 ## 🗂️ Project Folder Structure
 
-```
-
 employee-management/
 │
-├── controllers/          # Route handler logic (business logic)
-│   ├── attendanceController.js
-│   └── employeeController.js
-│
-├── models/               # Mongoose schemas (data models)
-│   ├── Attendance.js
-│   └── Employee.js
-│
-├── routes/               # Express route definitions
-│   ├── attendanceRoutes.js
-│   └── employeeRoutes.js
-│
-├── middleware/           # Express middlewares (auth, error handlers)
-│
-├── services/             # Service layer (optional for business logic)
-│
-├── utils/                # Utility/helper functions
-│
-├── .env                  # Environment variables (not tracked by git)
-├── .gitignore            # Files/folders to exclude from git
-├── app.js                # Main application entry point
-├── package.json          # Project metadata and scripts
-└── README.md             # Project documentation
+├── controllers/           # Route handler logic (business logic)
+│       ├── attendanceController.js
+│       └── employeeController.js
+├── models/                # Mongoose schemas (data models)
+│       ├── Attendance.js
+│       └── Employee.js
+├── routes/                # Express route definitions
+│       ├── attendanceRoutes.js
+│       └── employeeRoutes.js
+├── middleware/            # Express middlewares (auth, error handlers)
+├── services/              # Service layer (optional for business logic)
+├── utils/                 # Utility/helper functions
+├── .env                   # Environment variables (not tracked by git)
+├── .gitignore             # Files/folders to exclude from git
+├── app.js                 # Main application entry point
+├── package.json           # Project metadata and scripts
+└── README.md              # Project documentation
 
-````
+
+
 
 ### Folder Explanations
 
